@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de querySelector</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Prueba de querySelector</h1>
+        <p>Abimael Garcia Villamar &middot; ICI 5.&deg; Semestre</p>
+    </header>
+
+    <main class="contenedor">
+
+        <section class="tarjeta">
+            <h2>1. Seleccionar por id</h2>
+            <p>Con <code>#</code> se busca un elemento por su id. Solo hay uno en toda la pagina.</p>
+            <p id="mensaje">Este parrafo tiene el id "mensaje".</p>
+            <button id="btn-id">Cambiar este texto</button>
+        </section>
+
+        <section class="tarjeta">
+            <h2>2. Seleccionar por clase</h2>
+            <p>Con <code>.</code> se busca por clase. querySelector devuelve solo el primero.</p>
+            <p class="dato">Primer parrafo con la clase "dato".</p>
+            <p class="dato">Segundo parrafo con la clase "dato".</p>
+            <p class="dato">Tercer parrafo con la clase "dato".</p>
+            <button id="btn-clase">Pintar solo el primero</button>
+        </section>
+
+        <section class="tarjeta">
+            <h2>3. querySelectorAll</h2>
+            <p>Devuelve <strong>todos</strong> los que coincidan, y se recorren con forEach.</p>
+            <button id="btn-todos">Pintar todos los de la clase "dato"</button>
+        </section>
+
+        <section class="tarjeta">
+            <h2>4. Contador con evento</h2>
+            <p>El boton escucha el clic y actualiza el numero en pantalla.</p>
+            <p>Clics registrados: <span id="contador">0</span></p>
+            <button id="btn-contar">Sumar uno</button>
+        </section>
+
+        <section class="tarjeta">
+            <h2>5. Restablecer</h2>
+            <p>Deja todo como estaba al cargar la pagina.</p>
+            <button id="btn-reset">Restablecer</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Facultad de Ingenieria Mecanica y Electrica &middot; Universidad de Colima &middot; 2026</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
