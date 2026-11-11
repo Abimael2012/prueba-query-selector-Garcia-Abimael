@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    background-color: #eef1ea;
+    color: #4E4D4D;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #527630;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: #C1D82F;
+    font-size: 1.6rem;
+}
+
+header p {
+    font-size: 0.85rem;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    border: 1px solid #B4B4B4;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+.tarjeta h2 {
+    color: #527630;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #64B32E;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+
+.tarjeta p {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+code {
+    background-color: #eef4e6;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+button {
+    background-color: #527630;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #64B32E;
+}
+
+/* Esta clase se la pone y se la quita JavaScript */
+.resaltado {
+    background-color: #FBB034;
+    color: #4E4D4D;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+#contador {
+    color: #C7017F;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #8E8E8E;
+    padding: 20px;
+}
