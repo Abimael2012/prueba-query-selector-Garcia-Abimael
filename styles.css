@@ -1,3 +1,17 @@
+/* Caja verde: el producto si tiene piezas */
+.aprobado {
+    background-color: rgb(186, 235, 186);
+}
+
+/* Caja roja: el producto esta agotado */
+.no-aprobado {
+    background-color: rgb(241, 176, 176);
+}
+
+.caja-producto {
+    border: 1px solid black;
+    margin: 10px;
+}
 * {
     box-sizing: border-box;
     margin: 0;
